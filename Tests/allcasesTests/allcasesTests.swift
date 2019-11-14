@@ -4,6 +4,7 @@ import allcases
 final class allcasesTests: XCTestCase {
     func testExample() throws {
         let _ = MyEnum.allCases
+        let _ = MyStruct()
         XCTAssertTrue(true)
     }
 
